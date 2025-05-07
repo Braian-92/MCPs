@@ -1,27 +1,56 @@
-# MCPs
 
--- Inicializar package.json
+<h2 align="center">🚀 MCPs 🚀</h2>
+
+<h3 align="center">📦 Inicializar <code>package.json</code></h3>
+
+```bash
 npm init -y
+```
 
--- SDK
-https://github.com/modelcontextprotocol/typescript-sdk
+<h3 align="center">🛠️ SDK</h3>
+https://github.com/modelcontextprotocol/typescript-sdk  
 
+```bash
 npm install @modelcontextprotocol/sdk
+```
 
-# validar entradas y salidas
+<h3 align="center">🔍 Validar entradas y salidas</h3>
+
+```bash
 npm i zod
+```
 
--- ejecutar directamente los ts
+<h3 align="center">⚡ Ejecutar directamente los TS</h3>
+
+```bash
 npx -y tsx main.ts
+```
 
--- comando pwd
+<h3 align="center">📁 Ruta del proyecto</h3>
 
-Path
-----
+```text
 C:\xampp\htdocs\MCPs
+```
 
-## DEFINICION
-STDIO = Standard input and output. / entrada y salida estandar
+<h3 align="center">📖 DEFINICIÓN</h3>
 
--- Instalar y ejecutar inspector
+> **STDIO** = Standard input and output / entrada y salida estándar
+
+<h3 align="center">🕵️‍♂️ Instalar y ejecutar Inspector</h3>
+
+```bash
+npx @modelcontextprotocol/inspector npx -y tsx main.ts
+# o con -y para ejecutar sin confirmaciones
 npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
+
+```
+
+<h3 align="center">🌍 API Geocoding (LAT/LON por ciudad)</h3>
+https://open-meteo.com/en/docs/geocoding-api?language=es
+
+<h3 align="center">☁️ API Clima</h3>
+https://open-meteo.com/en/docs?forecast_days=1&current=is_day,temperature_2m,precipitation,rain
+
+<p align="center">
+  <img src=".readme_files/apiClima.png" alt="API Clima" />
+</p>
