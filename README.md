@@ -13,3 +13,12 @@ npm i zod
 
 -- ejecutar directamente los ts
 npx -y tsx main.ts
+
+-- comando pwd
+
+Path
+----
+C:\xampp\htdocs\MCPs
+
+-- Instalar y ejecutar inspector
+npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
