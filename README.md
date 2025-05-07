@@ -8,7 +8,10 @@ npm init -y
 ```
 
 <h3 align="center">🛠️ SDK</h3>
-https://github.com/modelcontextprotocol/typescript-sdk  
+
+[https://github.com/modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk  )
+
+
 
 ```bash
 npm install @modelcontextprotocol/sdk
@@ -46,10 +49,14 @@ npx -y @modelcontextprotocol/inspector npx -y tsx main.ts
 ```
 
 <h3 align="center">🌍 API Geocoding (LAT/LON por ciudad)</h3>
-https://open-meteo.com/en/docs/geocoding-api?language=es
+
+[https://open-meteo.com/en/docs/geocoding-api?language=es](https://open-meteo.com/en/docs/geocoding-api?language=es)
 
 <h3 align="center">☁️ API Clima</h3>
-https://open-meteo.com/en/docs?forecast_days=1&current=is_day,temperature_2m,precipitation,rain
+
+[https://open-meteo.com/en/docs?forecast_days=1&current=is_day,temperature_2m,precipitation,rain](https://open-meteo.com/en/docs?forecast_days=1&current=is_day,temperature_2m,precipitation,rain)
+
+<h3 align="left">Parametros utilizados</h3>
 
 <p align="center">
   <img src=".readme_files/apiClima.png" alt="API Clima" />
